@@ -1,0 +1,37 @@
+git init
+git clone https://github.com/elyssadiaz19/16agostoElizabethDiaz.git
+cd 16agostoElizabethDiaz
+touch main.js index.html
+git status
+git add .
+guit status
+git status
+git commit -m "commit 01 de elizabethdiaz"
+git status
+git push
+git checkout -b feature
+mkdir Hardware
+mkdir Software
+mkdir SeguridadInformatica
+cd Hardware
+touch resumen.txt
+cd ..
+cd Software
+touch resumen.txt
+cd ..
+cd SeguridadInformatica
+touch resumen.txt
+cd ..
+git add .
+git status
+git commit -m "commit 02 de elizabethdiaz"
+git push
+git push --set-upstream origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+touch comando.txt
+history 30
+git add .
+git commit -m "commit 03 de elizabethdiaz"
+git push
